@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+.merriweather-regular {
+	font-family: "Merriweather", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.animate-wiggle {
+	display: inline-block;
+	animation: wiggle 2.5s infinite;
+}
+
+@keyframes wiggle {
+	0%,
+	70%,
+	100% {
+		transform: rotate(0deg);
+	}
+	75%,
+	85% {
+		transform: rotate(5deg);
+	}
+	80%,
+	90% {
+		transform: rotate(-5deg);
+	}
+}
+
+.typeText::after {
+	content: "|";
+	animation: blink 1s infinite;
+}
+
+@keyframes blink {
+	0%,
+	100% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+}
+
+.animate-move {
+	animation: move 3s ease-in-out infinite;
+}
+
+@keyframes move {
+	0%,
+	100% {
+		transform: translate(0, 0);
+	}
+	50% {
+		transform: translate(0, -16px);
+	}
+}

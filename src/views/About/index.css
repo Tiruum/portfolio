@@ -1,0 +1,9 @@
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.animate-spin-5 {
+    animation: spin 5s linear infinite;
+}
