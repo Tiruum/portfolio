@@ -2,7 +2,6 @@ import { Header, CustomCursor, Section, ThemeProvider } from "@/components";
 import { About, Education, Experience, Intro, Projects, Skills } from "@/views";
 import AnimatedText from "@/components/AnimatedText";
 import { Button } from "./components/ui/button";
-import { SVGProps } from "react";
 import { ShapesArrows, StarIcon } from "./components/icons";
 
 const App = () => {

@@ -1,6 +1,6 @@
 import MeImg from "/me.jpg";
 import { Button } from "@/components/ui/button.tsx";
-import React, { SVGProps } from "react";
+import React from "react";
 import "./index.css";
 import { StarIcon } from "@/components/icons";
 
